@@ -8,7 +8,7 @@ body:
       value: |
         ## 感谢贡献实测视频！
 
-        你的贡献将帮助 [Cross-Model Matrix](https://github.com/your-repo/blob/main/prompts/data/cross-model-matrix.json) 从「公式对照」升级为「真实效果对照」，直接驱动未来 [`prompt-translator`](https://github.com/your-repo/tree/main/skills/prompt-translator) skill 的智能化。
+        你的贡献将帮助 [Cross-Model Matrix](https://github.com/cclank/lanshu-awesome-ai-video-kit/blob/main/prompts/data/cross-model-matrix.json) 从「公式对照」升级为「真实效果对照」，直接驱动未来 [`prompt-translator`](https://github.com/cclank/lanshu-awesome-ai-video-kit/tree/main/skills/prompt-translator) skill 的智能化。
 
   - type: dropdown
     id: scenario

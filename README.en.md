@@ -118,7 +118,7 @@ Structured into 4 categories of practical resources:
 **Option A · Recommended**: Use the [Web Browser](tools/prompt-browser/index.html)
 
 ```bash
-git clone https://github.com/your-fork/lanshu-awesome-ai-video-kit.git
+git clone https://github.com/cclank/lanshu-awesome-ai-video-kit.git
 cd lanshu-awesome-ai-video-kit
 python3 -m http.server 8000
 # Open http://localhost:8000/tools/prompt-browser/

@@ -114,7 +114,7 @@ models:
 # 监控配置
 config:
   schedule: "0 1 * * 1"  # 每周一 09:00 北京时间 (01:00 UTC)
-  user_agent: "lanshu-awesome-ai-video-kit version-monitor (https://github.com/your-repo)"
+  user_agent: "lanshu-awesome-ai-video-kit version-monitor (https://github.com/cclank/lanshu-awesome-ai-video-kit)"
   timeout_seconds: 20
   retry_attempts: 3
   # 内容过滤(去除噪音的正则)
