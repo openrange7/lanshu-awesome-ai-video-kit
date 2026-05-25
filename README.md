@@ -47,7 +47,7 @@
 ## 📸 主页一瞥
 
 <div align="center">
-  <img src="docs/screenshots/home.png" alt="lanshu-video-kit Homepage" width="100%">
+  <img src="docs/screenshots/home.webp" alt="lanshu-video-kit Homepage" width="100%">
   <p><i>v0.9.0 主页 · Liquid Glass 风格 · mesh 渐变 + 浮动胶囊 nav + 暗/亮主题</i></p>
 </div>
 
