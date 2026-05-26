@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.9",
+  "schema_version": "1.10",
   "updated": "2026-05-26",
-  "total": 310,
+  "total": 311,
   "models": {
     "seedance-2.0": {
       "name": "Doubao Seedance 2.0",
@@ -4106,27 +4106,33 @@
     {
       "id": "sd-001",
       "model": "seedance-2.0",
-      "category": "product-commercial",
-      "title": "产品开箱（Dreamina 官方品牌营销范式）",
-      "prompt": "A premium [product] unboxing sequence. Subject: a sleek [product] resting inside pristine white packaging with embossed logo. Action: hands enter from the top, gently lift the inner tray and pull the device free in slow, deliberate motion. Scene: an infinite white cyclorama, subtle floor shadow under the box. Light: large overhead softbox key with a low-power back rim catching the bezel edge. Camera: locked-off three-quarter close-up, then a gentle 5-second push-in toward the product surface, no shake. Style: high-end product CF, photorealistic materials, brand colors visible on the box. Constraints: no watermark, no text, no Logo other than the brand, no extra hands, no warped packaging.",
+      "title": "⭐ 经典 · 纯爱叙事:少年少女书桌目光相遇(15s timecode)",
+      "prompt": "15秒唯美纯爱叙事镜头,电影级写实画质,2.35:1画幅。0-4秒:暖黄色调,午后阳光透过百叶窗洒在木质书桌上,形成细微的丁达尔效应,少女趴在桌上浅睡,微风吹动她耳边的碎发和书页,镜头极缓推向侧脸特写;5-10秒:镜头切换至对面坐着的少年,他正出神地看着少女,眼神清澈溢满温柔,发现少女睫毛微动,立刻慌乱地低头假装看书,指尖局促地揉搓书角;11-15秒:大特写两人目光撞在一起的瞬间,少女羞涩抿嘴,少年露出腼腆笑容,背景虚化成梦幻的光斑,音效是轻微的蝉鸣和翻书声。禁止出现任何水印、字幕、文字。",
       "tags": [
-        "product",
-        "unboxing",
-        "studio",
-        "official",
-        "8-element"
+        "signature-classic",
+        "narrative",
+        "romance",
+        "youth",
+        "cinematic",
+        "timecode",
+        "chinese",
+        "tyndall-effect",
+        "shallow-focus"
       ],
+      "category": "cinematic",
       "params": {
-        "aspect": "9:16",
-        "duration": "8s",
+        "aspect": "2.35:1",
+        "duration": "15s",
         "resolution": "1080p"
       },
       "source": {
-        "name": "Dreamina (ByteDance / CapCut) - Seedance 2.0 prompt guide",
-        "url": "https://dreamina.capcut.com/resource/seedance-2-0-prompt",
-        "tier": "official"
-      },
-      "notes": "改编自 Dreamina 官方品牌营销范式 #10 - product unboxing close-up + brand logo panning"
+        "name": "@LufzzLiz (岚叔) · X tweet — 仓库主作者经典实测 (201K 浏览 · 671 赞 · 778 bookmarks)",
+        "url": "https://x.com/LufzzLiz/status/2029817696448303419",
+        "video_url": "https://video.twimg.com/amplify_video/2029816303431962624/vid/avc1/1472x632/YAxaxw5HfX7TGmeQ.mp4?tag=21",
+        "based_on_skill": "https://github.com/songguoxs/seedance-prompt-skill",
+        "tier": "reputable-3rd-party",
+        "note": "本仓库经典样板 — 中文 timecode prompt + 丁达尔效应 + 双角色情绪外化 + 浅景深背景虚化的完整范例,推荐作为入门必读"
+      }
     },
     {
       "id": "sd-002",
@@ -6376,6 +6382,31 @@
         "url": "https://www.youtube.com/watch?v=DqWmHvIIcww",
         "tier": "reputable-3rd-party"
       }
+    },
+    {
+      "id": "sd-095",
+      "model": "seedance-2.0",
+      "category": "product-commercial",
+      "title": "产品开箱（Dreamina 官方品牌营销范式）",
+      "prompt": "A premium [product] unboxing sequence. Subject: a sleek [product] resting inside pristine white packaging with embossed logo. Action: hands enter from the top, gently lift the inner tray and pull the device free in slow, deliberate motion. Scene: an infinite white cyclorama, subtle floor shadow under the box. Light: large overhead softbox key with a low-power back rim catching the bezel edge. Camera: locked-off three-quarter close-up, then a gentle 5-second push-in toward the product surface, no shake. Style: high-end product CF, photorealistic materials, brand colors visible on the box. Constraints: no watermark, no text, no Logo other than the brand, no extra hands, no warped packaging.",
+      "tags": [
+        "product",
+        "unboxing",
+        "studio",
+        "official",
+        "8-element"
+      ],
+      "params": {
+        "aspect": "9:16",
+        "duration": "8s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Dreamina (ByteDance / CapCut) - Seedance 2.0 prompt guide",
+        "url": "https://dreamina.capcut.com/resource/seedance-2-0-prompt",
+        "tier": "official"
+      },
+      "notes": "改编自 Dreamina 官方品牌营销范式 #10 - product unboxing close-up + brand logo panning"
     },
     {
       "id": "so-001",
