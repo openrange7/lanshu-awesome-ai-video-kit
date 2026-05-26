@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.8",
+  "schema_version": "1.9",
   "updated": "2026-05-26",
-  "total": 280,
+  "total": 310,
   "models": {
     "seedance-2.0": {
       "name": "Doubao Seedance 2.0",
@@ -5655,6 +5655,727 @@
         "tier": "official"
       },
       "notes": "ByteDance Seed 官方 R2V #2 - video extension（马上递花），原文一字不改"
+    },
+    {
+      "id": "sd-065",
+      "model": "seedance-2.0",
+      "title": "Burger Girl 变形(Format 1 三幕式)",
+      "prompt": "Montage, multi-shot action Hollywood movie, don't use one camera angle or single cut, cinematic lighting, photorealistic, 35mm film quality, ARRI ALEXA aesthetic. A pink-haired girl with glasses, cream top and jeans sits on the hood of a white pickup truck under a concrete overpass at dusk, casually eating a burger. A pale zombie with wet dark hair sprints toward her from the shadows. The girl calmly sets down the burger, her body erupts into a massive pale tusked creature with clawed hands, devours the zombie whole, then shrinks back to human form and picks up the burger. Handheld shake throughout, dark comedy pacing with horror undertones. Total: 15s / 6 shots / 16:9. No 3D, no cartoon, no VFX.",
+      "tags": [
+        "transformation",
+        "three-act",
+        "horror-comedy",
+        "viral",
+        "monster"
+      ],
+      "category": "viral-transform",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Higgsfield · Format 1 Burger Transformation",
+        "url": "https://higgsfield.ai/s/seedance-2-0-higgsfieldai-kQBLPo",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-066",
+      "model": "seedance-2.0",
+      "title": "Bus 变形(Robo-Girl 反差)",
+      "prompt": "Montage, multi-shot action Hollywood movie, cinematic lighting, photorealistic, 35mm film quality, ARRI ALEXA aesthetic. Inside a suburban bus packed with passengers, a red-haired girl in white tank top, cat-eye sunglasses and headphones sits unbothered while outside a colossal dark-blue rocky creature with sharp shoulder horns rampages through the street. All passengers press against the left windows in terror. The girl calmly opens the right window, climbs onto the roof, transforms into a green-armored robo-girl, destroys the creature with one massive blast, then drops back inside as a human. Handheld shake throughout, escalation arc from calm to explosive to calm. Total: 15s / 6 shots / 16:9.",
+      "tags": [
+        "transformation",
+        "robot",
+        "monster",
+        "viral",
+        "anime-style"
+      ],
+      "category": "viral-transform",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Higgsfield · Format 1 Bus Transformation",
+        "url": "https://higgsfield.ai/s/seedance-2-0-higgsfieldai-kQBLPo",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-067",
+      "model": "seedance-2.0",
+      "title": "Electro POV — 第一视角电力幻想",
+      "prompt": "Single continuous shot, first-person POV perspective, the camera IS her eyes, hyper-chaotic handheld motion, completely unstabilized, violent raw human movement, constant micro-jitters, aggressive head swings, abrupt jerks, frequent over-rotation, wide-angle lens (strong distortion), 15 seconds, her hands always visible in frame, no music only raw SFX, cinematic lighting, photorealistic, grounded realism, 35mm film look, heavy film grain, ARRI ALEXA aesthetic, practical VFX feel. In a storm-soaked industrial ruin, her hand snaps forward catching a crackling violet lightning sphere, electricity arcing violently, she crushes it instantly — blinding energy surges through her fingers as fractal lightning veins explode across both forearms. Enemies emerge — jagged obsidian creatures crawl across walls, while a colossal iron titan rises behind them. She lunges forward, slamming both hands down releasing a radial lightning surge, the titan retaliates with a beam, she catches it with one hand and redirects it upward while sprinting at the titan, drives both hands into its core, RAMPS TO SLOW MOTION as the core fractures, energy tearing outward in layered shockwaves. SFX: electric crackle, energy burst, deep metallic titan rise, slow-motion electric hum. Total: 15s / 1 shot / 16:9.",
+      "tags": [
+        "pov",
+        "first-person",
+        "powers",
+        "lightning",
+        "epic",
+        "action"
+      ],
+      "category": "fantasy-scifi",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Higgsfield · Format 2 Orbs Electro",
+        "url": "https://higgsfield.ai/s/seedance-2-0-higgsfieldai-kQBLPo",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-068",
+      "model": "seedance-2.0",
+      "title": "Gladiator POV(罗马角斗士)",
+      "prompt": "One continuous shot, POV gladiator perspective in the Colosseum arena, no cuts, no zoom, natural head movement, a furious enemy warrior sprints straight toward the camera through thick dust and sunlight, heavy footsteps shaking the ground, as he reaches close the POV character reacts instantly — grabs him mid-charge and slams him violently onto the sand, powerful impact, dust explosion, no pause, immediate chaos erupts all around, multiple gladiators fighting simultaneously, intense close combat everywhere, swords clashing, shields smashing, archers releasing arrows overhead, a chariot bursts through the scene, POV character fights barehanded with raw force — blocking strikes, grabbing opponents, throwing them aside, camera shaking from impacts, breath sounds, dust in the air, dramatic sunlight beams cutting through shadows, epic scale, photorealistic, motion blur on hits. Total: 15s / 1 shot / 16:9.",
+      "tags": [
+        "pov",
+        "gladiator",
+        "epic",
+        "fight",
+        "single-shot"
+      ],
+      "category": "action",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Higgsfield · Format 3 POV Gladiator",
+        "url": "https://higgsfield.ai/s/seedance-2-0-higgsfieldai-kQBLPo",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-069",
+      "model": "seedance-2.0",
+      "title": "中世纪骑士 POV(极简版)",
+      "prompt": "A single-frame POV video of a medieval knight riding a horse with a sledgehammer in his hands, riding and fighting epically, smashing his opponents with a sledgehammer while riding a horse, to make it look realistic with blood.",
+      "tags": [
+        "pov",
+        "medieval",
+        "knight",
+        "minimal-prompt",
+        "epic"
+      ],
+      "category": "action",
+      "params": {
+        "aspect": "16:9",
+        "duration": "8s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Higgsfield · Format 3 Medieval Knight (Minimal)",
+        "url": "https://higgsfield.ai/s/seedance-2-0-higgsfieldai-kQBLPo",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-070",
+      "model": "seedance-2.0",
+      "title": "火车顶武士对决(Train Rooftop Fight)",
+      "prompt": "Single continuous shot 15s: The camera begins below the train roof level — an extreme low angle looking up, the grey sky above and the train's metal roof surface filling the upper frame, power line cables visible on both sides, electric sparks already arcing between the cables and the roof surface. The FPV arm accelerates upward and crests the rooftop edge just as both female samurai warriors sprint into frame from opposite ends — dark armor catching the electric flash light, katanas already drawn — the camera dropping to roof level and sweeping into a full 360-degree orbit around both fighters as they clash center-roof, blades ringing, feet sliding on the curved metal surface, electric sparks erupting in curtains. The orbit completes and camera settles tight behind the first warrior as she draws back her katana in a full overhead swing — motion ramping into deep slow motion, the second warrior already reading the strike, arching her entire body backward in a deep spine bend, the blade passing centimeters from her face, a single small lock of dark hair separating in the slow motion wind. Motion snaps back as the second warrior drives her elbow into the first warrior's chest, both fighters exchange rapid blade-locked strikes, then lock arms, pivot, and drive each other off the edge — both bodies leaving the roof, tumbling sideways, camera descending with them, both hitting the river surface in twin white explosions, camera plunges beneath the surface — the world going deep blue-green, sunlight filtering down in shafts, both warriors still moving through the underwater space, the fight continuing in the silent slow drift of the river current. NO MUSIC / NO SFX. Total: 15s / 1 shot / 16:9.",
+      "tags": [
+        "fight",
+        "samurai",
+        "train",
+        "slow-motion",
+        "epic",
+        "single-shot"
+      ],
+      "category": "action",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Higgsfield · Format 4 Train Rooftop",
+        "url": "https://higgsfield.ai/s/seedance-2-0-higgsfieldai-kQBLPo",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-071",
+      "model": "seedance-2.0",
+      "title": "Lollipop Girl 工业厂房格斗",
+      "prompt": "Medium wide shot in a dark industrial warehouse, muscular bald man with black tribal face paint and open camouflage tactical vest over bare chest — squares off against a petite young woman half his size with messy dark hair and bangs, oversized gray sweatshirt slipping off one shoulder, dark pleated mini skirt, knee-high black socks, lollipop stick hanging from her lips. The big man swings a massive haymaker — she ducks under it effortlessly and delivers a rapid three-punch combo to his gut, the painted fighter doubles over in shock, she springboards off a metal crate and leaps onto his back wrapping both arms around his neck in a chokehold, the big man spins wildly trying to shake her off, crashing into steel shelving units that collapse in a domino chain, he finally grabs her by the back of her sweatshirt and hurls her across the room — she flips mid-air and lands on her feet sliding backward, pulls the lollipop from her mouth, grins, charges back in low to the ground weaving between his legs and delivers a devastating uppercut, the painted fighter's eyes go wide, slow-motion knees buckling, she winds up a running flying right hook that connects with the jaw sending him toppling backward like a felled tree through a stack of wooden pallets, dust cloud erupting on impact, harsh single-source overhead industrial light, warm amber on skin with cool steel-blue environment, anamorphic 35mm, Guy Ritchie speed-ramping with Snyder impact slow-motion. Total: 15s / 1 shot / 16:9.",
+      "tags": [
+        "fight",
+        "underdog",
+        "industrial",
+        "speed-ramp",
+        "anamorphic"
+      ],
+      "category": "action",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Higgsfield · Format 4 Lollipop Girl",
+        "url": "https://higgsfield.ai/s/seedance-2-0-higgsfieldai-kQBLPo",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-072",
+      "model": "seedance-2.0",
+      "title": "极简动画 prompt(Format 5)",
+      "prompt": "Fight of a 3D person with 2D",
+      "tags": [
+        "animation",
+        "minimal-prompt",
+        "ai-creative",
+        "fight"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "8s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Higgsfield · Format 5 Animation",
+        "url": "https://higgsfield.ai/s/seedance-2-0-higgsfieldai-kQBLPo",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-073",
+      "model": "seedance-2.0",
+      "title": "动作迁移(最简公式)",
+      "prompt": "Use the motion from the video in @video_1 with the characters in @image_1",
+      "tags": [
+        "motion-transfer",
+        "minimal-prompt",
+        "omni-reference",
+        "v2v"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "8s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · 100+ Prompts",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-074",
+      "model": "seedance-2.0",
+      "title": "Eclipse 耳机产品广告(Macro 多镜)",
+      "prompt": "TITLE: Eclipse Headphones. TONE: Premium minimalism, elegant tension. STYLE: Photoreal macro product cinematography. FORMAT: 16:9. DURATION: 8 seconds. [0–2s HOOK] Macro 85mm shot gliding over brushed-metal ear-cup. Soft edge light wraps around logo. Mist of particles drifts. Ambient hum + low bass swell. [2–4s SETUP] 35mm side tracking — model's silhouette lifts headphones in slow motion. Light gradient fades from blue → gold. Sub-bass pulse builds. [4–6s ACTION] Tight 50mm close-up as ear-cup seals over ear. Sound drops to silence. Camera pushes in microscopically, reflection catching logo flare. [6–8s RESOLUTION] Wide 24mm reveal — subject lost in soundscape; particles dissolve into brand emblem. Subtle logo sting + fade. Continuity: Soft diffused key light, desaturated palette with gold accents, macro focus transitions.",
+      "tags": [
+        "product",
+        "headphones",
+        "macro",
+        "luxury",
+        "multi-shot"
+      ],
+      "category": "product-commercial",
+      "params": {
+        "aspect": "16:9",
+        "duration": "8s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · 100+ Prompts (Eclipse Headphones)",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-075",
+      "model": "seedance-2.0",
+      "title": "魔杖亲子广告(UGC 风格)",
+      "prompt": "0:00–0:03 Parent holds wand up to camera. 'This arrived yesterday.' Casual, no setup needed. 0:03–0:10 Cut to kid holding wand, pointing it at the TV. Completely serious. 'Lumos.' Clicks the light switch instead — light turns on. Kid loses their mind. Stage it so the timing works. Hold on the kid's face when the light comes on. 0:10–0:13 Parent back on camera, whispering: 'They think they're actually magic. I'm not correcting them.' Conspiratorial. Warm. 0:13–0:15 Wand close-up. Text overlay: 'Link in bio.' Hard cut.",
+      "tags": [
+        "product",
+        "ugc",
+        "family",
+        "wand",
+        "social-viral"
+      ],
+      "category": "product-commercial",
+      "params": {
+        "aspect": "9:16",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · 100+ Prompts (Wand UGC)",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-076",
+      "model": "seedance-2.0",
+      "title": "铁匠锻造戒指(叙事独白)",
+      "prompt": "A handheld, front-facing shot inside a dark medieval forge lit by roaring fire and molten metal glow. Warm orange light flickers across stone walls, hanging blacksmith tools, and drifting sparks. Mild handheld shake, authentic candid phone-camera vibe. A rugged blacksmith in a worn leather apron stands beside the furnace, soot smudged across his face. He lifts a freshly forged golden ring toward the camera. The metal glows faintly from the heat. Fine engraved markings shimmer. Blacksmith (natural, slightly amazed): 'Alright… wait until you see this.' He tilts the ring closer, slowly rotating. Blacksmith (curious): 'This is the one ring. Just came out of the forge.' He turns it again, the molten glow reflecting in his eyes. Blacksmith (surprised, playful): 'Yeah… that turned out far better than I expected.' He lowers the ring slightly, leaning toward the camera. Blacksmith (casual, friendly): 'The gold's perfect, the finish is clean, and these markings… look at that. Honestly, this feels like something out of legend.' He raises the ring again so it glows dramatically. Blacksmith (smiling, confident): 'The one ring. Finest piece I've ever made.' The shot ends naturally.",
+      "tags": [
+        "product",
+        "narrative",
+        "blacksmith",
+        "monologue",
+        "medieval"
+      ],
+      "category": "product-commercial",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · 100+ Prompts (Blacksmith Ring)",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-077",
+      "model": "seedance-2.0",
+      "title": "Snap Shockwave 时间冻结都市",
+      "prompt": "Use <<<image_1>>> as the main character, keeping facial features and body proportions consistent throughout. Cinematic time-freeze short film, 15 seconds, ultra-realistic, shot on Arri Alexa Mini, 50mm lens, natural daylight with hard shadows, shallow depth of field. [0:00–0:03] A busy city sidewalk, time flowing normally. Steadicam frontal medium shot tracking the main character walking confidently through the crowd. As he walks, he raises his right hand and snaps his fingers. [0:03–0:06] At the exact moment of the snap — a powerful white spherical shockwave bursts from his fingertips, with visible air distortion and light refraction, rapidly expanding outward. It sweeps across the ground, lifting dust, instantly freezing them mid-air. It hits pedestrians — each freezes mid-step. It reaches the sky — every pigeon freezes mid-flight. After the wave dissipates — absolute silence. Tiny time-frozen particles float in the air. [0:06–0:09] In the silence, only the character's footsteps echo crisply. The camera moves backward, flying in front of him as he walks toward it, casually passing through the frozen crowd. He notices a pigeon suspended above him, reaches up, and gently touches its feathers. The pigeon remains completely still but emits a low cooing sound. He continues walking. [0:09–0:15] He turns, pulls a cigarette from his jacket pocket, places it in his mouth, flicks a lighter — click — lights it, takes a drag, slowly exhales smoke. The smoke is the only thing moving in the frozen world. He turns to face the camera with confident smile, raises his right hand, and snaps again — everyone explodes back into motion.",
+      "tags": [
+        "bullet-time",
+        "snap-shockwave",
+        "powers",
+        "urban",
+        "cinematic"
+      ],
+      "category": "fantasy-scifi",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · 100+ Prompts (Snap Shockwave)",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-078",
+      "model": "seedance-2.0",
+      "title": "360° 年龄循环(童年到老年)",
+      "prompt": "Style: Cinematic realism. Orbit Rule: Slow, steady clockwise 360°. Length: ~15 seconds. CAMERA: Camera begins orbiting clockwise around a single character standing in open field at golden hour. Orbit speed constant. No cuts. Character ages progressively across full rotation. [0–3s] Child (Age 8): Small child standing in tall grass holding a paper airplane. Soft warm sunlight. Child: 'I'll go further than anyone.' Hair subtly grows longer, posture shifts. [3–6s] Teen (Age 16): Same field, sunset slightly deeper. Teen now holds school backpack. Jawline sharper. Teen: 'I won't quit.' Camera keeps orbiting. Clothes shift mid-rotation. [6–9s] Young Adult (Age 25): Field now dusk. Slight wind. Adult in casual jacket. Adult: 'I hope this is right.' Orbit continues — grey streak appears in hair. [9–12s] Middle Age (45): Night settling in. Wrinkles form. Middle-aged: 'I did what I could.' Orbit continues — skin texture thins. [12–15s] Elderly (75+): Full night sky overhead. Older figure, slower breathing, slight tremble. He looks upward. Elderly (whisper): 'And it was enough.' Orbit completes facing him under stars. Ends with a space logo with the text 'PROJECT HAIL GARY'. Fade out.",
+      "tags": [
+        "orbit",
+        "time-passage",
+        "aging",
+        "emotional",
+        "single-shot"
+      ],
+      "category": "cinematic",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · 100+ Prompts (Age Loop)",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-079",
+      "model": "seedance-2.0",
+      "title": "Transformer 飞机变机器鹰",
+      "prompt": "An airplane is parked in a dilapidated parking lot in outskirt of Jakarta. The airplane begins to violently disassemble and reorganize from the inside out, transforming into a grumpy, evil Cybertronian mechanical giant eagle. 00–02s The Setup: Wide shot, eye-level. An airplane slowly drives forward on a dusty lot under a clear, sunny sky. The tone is grounded and realistic. 02–05s The Transformation Begins: Dynamic VFX action shot. The airplane violently bursts open. The front splits as a massive metallic silver eagle head with glowing yellow eyes pushes through. The vehicle's chassis, doors rapidly fold, spin, and reconfigure into heavy mechanical limbs. 05–08s The Ejection: Fast-paced tracking shot. The driver is thrown out of the transforming tank. He tumbles onto the dusty ground as the machine finishes shifting into a giant robotic eagle, kicking up dirt. 08–11s The Mount: Action shot. The driver scrambles to his feet, charges at the colossal beast, grabs onto the shifting side panels, vaults himself high into the air, landing squarely on the eagle's metallic back. 11–14s The Hero Pose: Low angle, epic hero shot. The man straddles the giant robotic eagle, gripping the armor tightly. The mechanical eagle stands aggressively, jaws open in a fierce roar. A cinematic lens flare hits the lens.",
+      "tags": [
+        "transformation",
+        "transformer",
+        "vfx",
+        "cybertronian",
+        "epic"
+      ],
+      "category": "fantasy-scifi",
+      "params": {
+        "aspect": "16:9",
+        "duration": "14s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · 100+ Prompts (Transformer)",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-080",
+      "model": "seedance-2.0",
+      "title": "VFX 金属手臂磁吸(V2V 极简)",
+      "prompt": "after 0.2 seconds metal armour magnetically attaches itself to the arm and hand in @video1",
+      "tags": [
+        "vfx",
+        "v2v",
+        "minimal-prompt",
+        "armor",
+        "magnetic"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "5s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · VFX Series",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-081",
+      "model": "seedance-2.0",
+      "title": "VFX 黑色 Goo 触手覆盖手臂",
+      "prompt": "the arm and hand in @video_1 start to get covered in shiny black goo, black tendrils crawl up the arm",
+      "tags": [
+        "vfx",
+        "v2v",
+        "minimal-prompt",
+        "symbiote",
+        "horror"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "5s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · VFX Series",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-082",
+      "model": "seedance-2.0",
+      "title": "VFX 透明手臂(显示骨骼肌肉)",
+      "prompt": "the arm and hand in @video_1 start to go translucent revealing the bones and muscle in the arm and hand",
+      "tags": [
+        "vfx",
+        "v2v",
+        "minimal-prompt",
+        "x-ray",
+        "anatomy"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "5s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · VFX Series",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-083",
+      "model": "seedance-2.0",
+      "title": "VFX 路面塌陷怪物涌出",
+      "prompt": "a huge sinkhole is in the road in @video1, monsters start crawling out from the sinkhole, monster creature sounds and audio",
+      "tags": [
+        "vfx",
+        "v2v",
+        "minimal-prompt",
+        "monster",
+        "horror"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "8s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · VFX Series",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-084",
+      "model": "seedance-2.0",
+      "title": "FPV 飞行 — 曼哈顿穿越写字楼(Start+End Frame)",
+      "prompt": "Use Image 1 as the exact starting frame and Image 2 as the exact final frame. Do not change either image. The video must start matching Image 1 and end matching Image 2 perfectly. Generate a continuous FPV camera shot lasting 12 seconds. The camera represents a first-person viewpoint. Do not show any drone, propellers, shadows, or physical camera rigs. The camera moves fast but remains controlled and cinematic. Use smooth forward motion with gentle curves and subtle banking. Keep the horizon stable and level. No spinning, no flips, no full rotations, no aggressive rolling. Start at the Manhattan skyline from Image 1. Move forward and descend toward a nearby office building in one smooth motion. Fly into the building through the windows and pass through interior office spaces, moving past tables, chairs, monitors, and objects with realistic scale. Exit the building and continue descending along the exterior toward the main road. At street level, move forward past traffic including yellow taxis, cars, and pedestrians. Continue forward toward a dense commercial area resembling Times Square. Slightly rise toward detailed billboards and screens, then perform a controlled directional turn around them. After the turn, descend back toward street level and move toward a dentist that matches the final scene. Fly through the entrance with a smooth forward glide. Inside, pass by tables, people, and interior elements with realistic lighting. Gradually slow down only at the very end and settle perfectly into the exact framing of Image 2.",
+      "tags": [
+        "fpv",
+        "start-end-frame",
+        "manhattan",
+        "long-shot",
+        "cinematic"
+      ],
+      "category": "cinematic",
+      "params": {
+        "aspect": "16:9",
+        "duration": "12s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · 100+ Prompts (FPV Manhattan)",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-085",
+      "model": "seedance-2.0",
+      "title": "JSON 格式:龙的第一视角空战",
+      "prompt": "{\"title\": \"Cinematic First-Person Dragon Battle Flight\", \"style\": \"epic fantasy cinematic, ultra-realistic\", \"camera\": {\"perspective\": \"first-person POV of a dragon\", \"shot_type\": \"continuous aerial combat shot\", \"lens\": \"wide anamorphic fantasy lens\", \"focal_length\": \"14mm\", \"motion\": [\"massive swooping dives\", \"violent barrel rolls\", \"powerful wing beats\"]}, \"scene\": {\"environment\": \"medieval battlefield at sunset\", \"details\": [\"burning siege towers\", \"soldiers below\", \"catapults firing\", \"smoke columns\"]}, \"action\": {\"movement\": [\"dragon dives toward battlefield\", \"flies low over armies\", \"ascends sharply above castle walls\"], \"events\": [{\"type\": \"fire_breath\", \"description\": \"dragon unleashes massive wall of fire\"}, {\"type\": \"arrow_storm\", \"description\": \"thousands of flaming arrows rush toward camera\"}]}}",
+      "tags": [
+        "json-format",
+        "dragon",
+        "pov",
+        "aerial-combat",
+        "structured"
+      ],
+      "category": "fantasy-scifi",
+      "params": {
+        "aspect": "16:9",
+        "duration": "12s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube PypS8xF5lfo · 100+ Prompts (JSON Dragon)",
+        "url": "https://docs.google.com/document/d/1DyulbGoZMY0dfXQrrph0KThf9XzmGU7Ceo7HFdyFbns/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-086",
+      "model": "seedance-2.0",
+      "title": "微型女孩极速穿越玩具世界",
+      "prompt": "On the floor of a children's room, a miniature-sized girl rides a tiny skateboard, zipping along at high speed just above the ground. The sense of scale makes human-sized toys and furniture appear gigantic. The camera tracks from a low angle right behind the protagonist, creating a continuous one-shot style video that constantly moves forward. Ultra-wide-angle lens, motion blur, depth of field, cinematic lighting. Stage 1: She dashes at high speed through a narrow passage resembling a canyon of buildings in a Lego city, slaloming forward between building blocks. Stage 2: A giant ball rolls toward her from the front and she slides into a tiny gap against the wall, ducks under falling building blocks by a hair's breadth, and barely passes between the tires of a moving toy car. Stage 3: She bursts through the gap between the pages of a picture book blowing shut in the wind, slips under the arm of a swaying stuffed animal, and finally dives into the slight opening of a closing toy box lid, disappearing into the dark depths at maximum speed. A thrilling and exhilarating video featuring a continuous series of narrow escapes. An immersive, theme-park-ride-like experience.",
+      "tags": [
+        "miniature",
+        "scale",
+        "chase",
+        "theme-park",
+        "continuous"
+      ],
+      "category": "fantasy-scifi",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube DqWmHvIIcww · 50 Viral Prompts",
+        "url": "https://docs.google.com/document/d/1Q9-oa6zlZeg4eq5xn_axpApuWdcczj60GDG_Fpd27Bk/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-087",
+      "model": "seedance-2.0",
+      "title": "二战诺曼底登陆 POV",
+      "prompt": "15-second continuous single-shot action sequence. No cuts. No scene transitions. Cinematic war realism, handheld POV camera, desaturated colors, heavy grain, harsh daylight through smoke, water droplets on lens, mud and debris, realistic physics, chaotic but readable motion. Extreme immersion, grounded soldier movement, controlled disorientation, no stylized action. Scene: WWII beach landing, shallow water, incoming waves, heavy smoke, distant bunkers firing, explosions across shoreline. 0–3s arrival: POV from a soldier jumping into shallow water. Camera drops abruptly: water splashes across lens, breathing heavy, vision unstable. Immediate gunfire hitting water nearby. 3–6s disorientation: Camera rises unevenly. Running forward through water. Bullets impacting around, soldiers falling in peripheral vision, explosions sending sand and water upward. 6–10s push forward: Transition from water to wet sand. Soldier stumbling, regaining balance. Nearby cover. Quick crouch. Hands briefly visible steadying weapon. 10–12s slow motion shock: Explosion nearby. Time slows: sand and debris suspended, shockwave rippling, sound implied muted. Camera slightly tilts. 12–15s survival instinct: Time snaps back. Soldier rises and pushes forward again toward cover. Gunfire continues. Camera lurches forward with urgency. Freeze.",
+      "tags": [
+        "pov",
+        "wwii",
+        "normandy",
+        "war",
+        "single-shot",
+        "speed-ramp"
+      ],
+      "category": "cinematic",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "YouTube DqWmHvIIcww · 50 Viral Prompts",
+        "url": "https://docs.google.com/document/d/1Q9-oa6zlZeg4eq5xn_axpApuWdcczj60GDG_Fpd27Bk/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-088",
+      "model": "seedance-2.0",
+      "title": "武侠竹林剑斗(中文风格)",
+      "prompt": "Style: Chinese wuxia martial arts, expressive and sharp ink-style aesthetics. Lighting: cinematic lighting, cold moonlight with soft diffuse shadows. 0–3s: A white-robed swordsman (appearance reference: Image 1) faces a black-clad assassin (appearance reference: Image 2) in a moonlit bamboo forest. A half crescent moon hangs in the sky, casting cool-toned diffuse moonlight. Wide cinematic shot. Bamboo leaves slowly fall through the air. 4–7s: The black-clad assassin suddenly dashes forward, moving with explosive speed. His short blade slices three intersecting golden arcs through the air. The white-robed swordsman leans back and slides, lightly touching his thin sword to the ground to pivot and spin away. Medium tracking shot, fast and fluid movement. 8–12s: The fighters engage in a high-speed sword exchange. Blades collide with bursts of sparks, metal striking metal. The camera orbits around the duel, capturing the intensity from multiple angles. Motion afterimages trail their movements, sword energy sweeps through the bamboo forest. 13–15s: The white-robed swordsman leaps into the air, unleashing a powerful white sword energy slash. The black-clad assassin blocks and staggers backward. The shot freezes momentarily with a subtle camera shake. Visual Style: Tsui Hark-style wuxia cinematic action, 4K ultra-HD, 60 FPS smooth motion.",
+      "tags": [
+        "wuxia",
+        "chinese",
+        "swords",
+        "bamboo-forest",
+        "tsui-hark"
+      ],
+      "category": "action",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "4K"
+      },
+      "source": {
+        "name": "YouTube DqWmHvIIcww · 50 Viral Prompts (Wuxia)",
+        "url": "https://docs.google.com/document/d/1Q9-oa6zlZeg4eq5xn_axpApuWdcczj60GDG_Fpd27Bk/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-089",
+      "model": "seedance-2.0",
+      "title": "东南亚夜市不可能运镜(ground-to-aerial)",
+      "prompt": "FORMAT: 15s / single continuous impossible camera move / no dialogue. STYLE: Dense Southeast Asian night market, wet stone, steam and fire, orange lantern light, photorealistic ground-to-aerial cinematic 8K. Shot 01 (0:00–2:00): Camera starts at ankle level. Forest of feet on glistening wet stone. Market sounds overwhelming. Camera weaves between legs like water. Audio: Wet footsteps, distant vendor calls. Shot 02 (2:00–3:30): Camera rises slowly past steaming woks. A gas flame bursts at exact eye level — camera briefly engulfed in orange fire then emerges through it, uncut. Shot 03 (3:30–5:00): Camera weaves through hanging lanterns at mid-height. Red and orange light strobing. Shot 04 (5:00–6:30): Camera dips suddenly under a low table. A child has fallen asleep on a bag here. Quiet pocket of stillness. Shot 05 (6:30–8:00): Camera rises back up through the smoke of a charcoal grill — emerges above stall canopy. Shot 06 (8:00–10:00): Camera continues rising — now above rooftop level. The market reveals itself as an endless orange lantern sea stretching to the horizon. Shot 07 (10:00–12:00): Camera begins descending back down — targeting a single stall at the market edge. Shot 08 (12:00–13:30): Camera settles at the vendor's hands. Close on coins being stacked methodically. Shot 09 (13:30–15:00): Camera tilts up slowly to the vendor's face. They look up — directly into the camera. Hold. Fade to black. STYLE NOTES: Ground level claustrophobic. Aerial shot is the emotional exhale. Warm orange and red throughout. 8K.",
+      "tags": [
+        "impossible-camera",
+        "night-market",
+        "ground-to-aerial",
+        "asia",
+        "single-shot"
+      ],
+      "category": "cinematic",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "4K"
+      },
+      "source": {
+        "name": "YouTube DqWmHvIIcww · 50 Viral Prompts (Night Market)",
+        "url": "https://docs.google.com/document/d/1Q9-oa6zlZeg4eq5xn_axpApuWdcczj60GDG_Fpd27Bk/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-090",
+      "model": "seedance-2.0",
+      "title": "一战战壕不可能运镜",
+      "prompt": "FORMAT: 15s / single continuous impossible camera move / no dialogue. STYLE: World War I trench warfare, deep mud, pouring rain, splintered wood, photorealistic ground-to-aerial cinematic 8K. Shot 01 (0:00–2:00): Camera starts at mud level. A forest of heavy mud-caked boots marching and sinking into sludge. Water filling footprints. Audio: Squelching mud, deafening artillery thuds. Shot 02 (2:00–3:30): Camera rises slowly past a sandbag wall. An artillery shell explodes just over the parapet — camera briefly engulfed in flying dirt and flash-fire, emerging uncut. Audio: Earth-shattering BOOM. Ringing ears. Shot 04 (5:00–6:30): Camera dips suddenly under a shattered wooden duckboard. A single pristine white field mouse curled up, shivering. Audio: Tiny heartbeats. Shot 06 (8:00–10:00): Camera continues rising — high above No Man's Land. The battlefield reveals itself as an endless, scarred lunar landscape of zigzagging trenches stretching to a blackened horizon. Audio: War sounds fading to mournful wind. Shot 09 (13:30–15:00): Camera tilts up slowly to the medic's hollow eyes. They look up — directly into the camera. Hold. Fade to black. Audio: A single drop of water hitting a tin cup. Silence. STYLE NOTES: Desaturated browns, grays, toxic yellows. 8K.",
+      "tags": [
+        "impossible-camera",
+        "wwi",
+        "trench-warfare",
+        "ground-to-aerial",
+        "single-shot"
+      ],
+      "category": "cinematic",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "4K"
+      },
+      "source": {
+        "name": "YouTube DqWmHvIIcww · 50 Viral Prompts (WWI Trench)",
+        "url": "https://docs.google.com/document/d/1Q9-oa6zlZeg4eq5xn_axpApuWdcczj60GDG_Fpd27Bk/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-091",
+      "model": "seedance-2.0",
+      "title": "女宇航员太空站逃生",
+      "prompt": "A female astronaut in a white EVA suit sprints across the outer ring of a damaged orbital station above Earth. The station slowly rotates while massive solar panels break apart and drift into space. At the 2-second mark she jumps from the rotating ring toward a drifting cargo module. Camera floats beside her as Earth spins in the background. She grabs a handle, swings through the airlock hatch, and seals the door just as debris slams into the station behind her. Orbital debris field, zero-gravity leap, rotating space station exterior run, cinematic space lighting, 4K.",
+      "tags": [
+        "space",
+        "astronaut",
+        "action",
+        "zero-gravity",
+        "escape"
+      ],
+      "category": "fantasy-scifi",
+      "params": {
+        "aspect": "16:9",
+        "duration": "10s",
+        "resolution": "4K"
+      },
+      "source": {
+        "name": "YouTube DqWmHvIIcww · 50 Viral Prompts (Astronaut)",
+        "url": "https://docs.google.com/document/d/1Q9-oa6zlZeg4eq5xn_axpApuWdcczj60GDG_Fpd27Bk/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-092",
+      "model": "seedance-2.0",
+      "title": "豪华邮轮穿越不可能运镜",
+      "prompt": "Continuous single take, camera tilting, rolling, spinning, flying through a colossal luxury cruise ship. Starts flying over the sunny upper deck dodging beach balls and sunbathers, camera dives straight down a twisting, translucent water slide, gliding past screaming children before splashing into the main pool. Sweeps underwater, effortlessly passing through a glass floor directly into the elegant grand dining room below, weaving through crystal chandeliers, clinking champagne glasses, and waiters balancing silver trays. Camera dives past the spinning kitchen doors into the humming, immaculate engine control room, transitions out the stern exhaust vent, gliding over the churning, foamy white wake as the sun sets over the ocean. No cuts, impossible camera moves, seamless transitions, energetic, dynamic, cinematic. 8K high definition, high quality footage.",
+      "tags": [
+        "impossible-camera",
+        "cruise-ship",
+        "luxury",
+        "single-shot",
+        "vacation"
+      ],
+      "category": "cinematic",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "4K"
+      },
+      "source": {
+        "name": "YouTube DqWmHvIIcww · 50 Viral Prompts (Cruise)",
+        "url": "https://docs.google.com/document/d/1Q9-oa6zlZeg4eq5xn_axpApuWdcczj60GDG_Fpd27Bk/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-093",
+      "model": "seedance-2.0",
+      "title": "亚马逊雨林穿越不可能运镜",
+      "prompt": "Continuous single take, camera tilting, rolling, spinning, flying through a dense Amazonian rainforest ecosystem. Starts flying through the misty canopy dodging hanging vines and a sleeping sloth, camera dives downward into the hollow trunk of a massive ancient tree, gliding past bioluminescent fungi and a colony of bats. Sweeps out onto the humid forest floor, closely following a rapid line of leaf-cutter ants carrying green fragments, weaving through giant ferns and dew drops. Camera dives directly into a fast-flowing jungle river, transitioning smoothly underwater past darting piranhas and swaying aquatic plants, before bursting out of a roaring waterfall into a breathtaking aerial view of the infinite green jungle at dawn. No cuts, impossible camera moves, seamless transitions, energetic, dynamic, cinematic. 8K high definition, high quality footage.",
+      "tags": [
+        "impossible-camera",
+        "rainforest",
+        "amazon",
+        "nature",
+        "single-shot"
+      ],
+      "category": "nature",
+      "params": {
+        "aspect": "16:9",
+        "duration": "15s",
+        "resolution": "4K"
+      },
+      "source": {
+        "name": "YouTube DqWmHvIIcww · 50 Viral Prompts (Amazon)",
+        "url": "https://docs.google.com/document/d/1Q9-oa6zlZeg4eq5xn_axpApuWdcczj60GDG_Fpd27Bk/edit",
+        "tier": "reputable-3rd-party"
+      }
+    },
+    {
+      "id": "sd-094",
+      "model": "seedance-2.0",
+      "title": "Nano Banana 角色表降真实度(过审 prompt)",
+      "prompt": "Convert this character sheet into a slightly stylized game character render. Keep the face highly recognizable, preserve facial features, bone structure, realistic proportions, and subtle skin detail. Reduce photorealism slightly. Use cleaner shapes, polished game-art rendering, and slightly simplified textures. Keep the original composition, pose, outfit, and character design unchanged. High-quality modern AAA video game character art.",
+      "tags": [
+        "nano-banana",
+        "bypass-face",
+        "character-sheet",
+        "preprocessing",
+        "workflow"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "1:1",
+        "duration": "n/a (image preprocessing)",
+        "resolution": "n/a"
+      },
+      "source": {
+        "name": "YouTube DqWmHvIIcww · Bypass Face Filter",
+        "url": "https://www.youtube.com/watch?v=DqWmHvIIcww",
+        "tier": "reputable-3rd-party"
+      }
     },
     {
       "id": "so-001",

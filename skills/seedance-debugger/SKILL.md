@@ -335,6 +335,8 @@ description: 诊断 Seedance 2.0 生成视频时出现的常见问题（人物 I
 
 ## 参考资源
 
+- **Masterclass(10 YouTube 教学综合)**:[methodology/15-seedance-masterclass.md](../../methodology/15-seedance-masterclass.md) — 实战避坑 12 条扩展(头盔消失/超 3 角色/上传失败/超字符限制/AI 乱切/音频太模糊)
+
 - 12 问完整版：[methodology/08-避坑12问.md](../../methodology/08-避坑12问.md)
 - 约束词清单：[methodology/06-约束词清单.md](../../methodology/06-约束词清单.md)
 - 特殊字符规范：[methodology/07-特殊字符规范.md](../../methodology/07-特殊字符规范.md)
