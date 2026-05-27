@@ -2,15 +2,15 @@
 
 <!-- Hero Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=200&section=header&text=lanshu-awesome-ai-video-kit&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20Video%20Prompt%20Engineering%20Kit%20·%2016%20Models%20·%20431%20Prompts&descSize=15&descAlignY=62&descColor=cccccc">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=200&section=header&text=lanshu-awesome-ai-video-kit&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20Video%20Prompt%20Engineering%20Kit%20·%2016%20Models%20·%20431%20Prompts&descSize=15&descAlignY=62&descColor=ffffff" alt="banner" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=200&section=header&text=lanshu-awesome-ai-video-kit&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20Video%20Prompt%20Engineering%20Kit%20·%2016%20Models%20·%20539%20Prompts&descSize=15&descAlignY=62&descColor=cccccc">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,30&height=200&section=header&text=lanshu-awesome-ai-video-kit&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20Video%20Prompt%20Engineering%20Kit%20·%2016%20Models%20·%20539%20Prompts&descSize=15&descAlignY=62&descColor=ffffff" alt="banner" width="100%">
 </picture>
 
 # 🎬 lanshu-awesome-ai-video-kit
 
 **做企业 AI 视频项目逼出来的开源工具包**
 
-431 实测 prompt · 16 模型 · 7 Claude Skill · 16 篇方法论 · GitHub Action 每周自动监控官方端点
+539 实测 prompt · 16 模型 · 7 Claude Skill · 19 篇方法论 · GitHub Action 每周自动监控官方端点
 
 [🇨🇳 中文](README.md) · [🇬🇧 English](README.en.md) · [🌐 **Live Demo**](https://lanshu-awesome-ai-video-kit.lank.workers.dev) · [⚡ awesome 投稿](awesome.md)
 
@@ -27,9 +27,9 @@
 
 <!-- Content stats badges -->
 [![Models](https://img.shields.io/badge/Models-15-8b5cf6?style=flat-square&logo=googlegemini&logoColor=white)](#-15-模型一览)
-[![Prompts](https://img.shields.io/badge/Prompts-431-fb923c?style=flat-square)](prompts/)
+[![Prompts](https://img.shields.io/badge/Prompts-539-fb923c?style=flat-square)](prompts/)
 [![Skills](https://img.shields.io/badge/Claude_Skills-7-d97757?style=flat-square&logo=anthropic&logoColor=white)](skills/)
-[![Methodology](https://img.shields.io/badge/SOP-16-34d399?style=flat-square)](methodology/)
+[![Methodology](https://img.shields.io/badge/SOP-19-34d399?style=flat-square)](methodology/)
 [![Categories](https://img.shields.io/badge/Categories-29-f472b6?style=flat-square)](prompts/data/all-prompts.json)
 [![Endpoints Monitored](https://img.shields.io/badge/Auto_Monitor-32_endpoints-06b6d4?style=flat-square&logo=githubactions&logoColor=white)](.github/workflows/model-version-monitor.yml)
 
@@ -68,10 +68,10 @@
 ## 🎯 数据规模(v0.9.0 · 2026-05)
 
 ```
-431 条 prompt   (321 单模型最佳实践 + 110 跨模型对照矩阵)
+539 条 prompt   (429 单模型最佳实践 + 110 跨模型对照矩阵)
  15 个 模型      (11 商业旗舰 + 4 开源 / 友好开源)
   7 个 Claude Skill  (含 model-selector + prompt-translator 跨模型核心)
- 16 篇 方法论 SOP    (基础公式 → 各家公式 → 决策树 → masterclass → Gemini Omni)
+ 19 篇 方法论 SOP    (+ HappyHorse / Kling / Seedance Round 3 三大 masterclass)
  29 个 场景分类      (产品 / 对话 / 物理 / I2V / 武侠 / 萌宠 / ...)
  32 个 监控端点      (每周一 09:00 北京时间自动巡检)
    3 个 Web 工具    (Liquid Glass · 零依赖单文件 HTML)
@@ -101,7 +101,7 @@ python3 serve.py 8000
 - [🚀 5 秒上手](#-5-秒上手)
 - [📦 15 模型一览](#-15-模型一览)
 - [🛠️ 7 个 Claude Code Skill](#%EF%B8%8F-7-个-claude-code-skill)
-- [📖 16 篇方法论 SOP](#-16-篇方法论-sop)
+- [📖 19 篇方法论 SOP](#-19-篇方法论-sop)
 - [🌐 3 个 Web 工具](#-3-个-web-工具)
 - [🤖 自动监控机制](#-自动监控机制)
 - [📁 目录结构](#-目录结构)
@@ -169,9 +169,9 @@ done
 
 ---
 
-## 📖 16 篇方法论 SOP
+## 📖 19 篇方法论 SOP
 
-按主题分六组:
+按主题分七组:
 
 | # | 类别 | 文档 |
 |---|---|---|
@@ -181,8 +181,11 @@ done
 | 14 | **4 大开源速查** ⭐ | LTX / Mochi / CogVideoX / Higgsfield + 15 模型选型决策树 |
 | 15 | **Seedance Masterclass** ⭐ | 10 YouTube 教学(500K+ 播放):9 要素 / Timeline / 角色一致性 5 步 / 5 种爆款 / VFX / Bullet Time / 8 个模板 |
 | 16 | **Gemini Omni 公式** ⭐NEW | Google AI 官方 5 大 prompting tips(Real-World 锚点 / 文字渲染 / 摄影术语 / 迭代编辑 / 动作改) + 10 条官方样板 |
+| 17 | **HappyHorse Masterclass** ⭐ | 14 YouTube 教学:6 要素黄金公式 + 20 词单镜规则 + 情绪转物理动作 + @tag Omni Reference(9 张上限) + 多镜头 SHOT(0:00-0:05) + AUDIO 块 7 语言 lip-sync + Storyboard 45s + 11 条避坑 + 8 模板 + 33 条 prompt |
+| 18 | **Kling Masterclass** ⭐ | 25 YouTube 频道(6M+ 累计):5 要素公式 + Constraint Sandwich(O1) + Style Bible Line + Elements/Bind 跨镜头一致性 + Multi-Shot **6 shots/15s** + Motion Brush/Library/Transfer + 3×3 网格法 + Character Sheet + OmniEdit + 56 条 prompt |
+| 19 | **Seedance Masterclass Round 3** ⭐ | 8 个新 YouTube 视频:三类 reference(图/音/视频)+ CapCut Video Studio 三模式 + AI Anime 四步法 + 3×3 网格(替代 2×2)+ 视频扩展 30s + Advanced Guide 五段式 + BytePlus/ChatCut/Mitte 访问渠道 + 19 条 prompt |
 
-> **如果只挑两篇必读**:[`02-进阶 8 要素`](methodology/02-进阶公式.md)(导演级写作框架,所有 prompt 都是它的变体)+ [`13-六大模型公式速查`](methodology/13-六大模型公式速查.md)(12 分钟拿到 6 个模型公式)。其他 14 篇按需查。
+> **如果只挑两篇必读**:[`02-进阶 8 要素`](methodology/02-进阶公式.md)(导演级写作框架,所有 prompt 都是它的变体)+ [`13-六大模型公式速查`](methodology/13-六大模型公式速查.md)(12 分钟拿到 6 个模型公式)。其他 17 篇按需查。
 
 ---
 
@@ -192,7 +195,7 @@ done
 
 | 工具 | 路径 | 卖点 |
 |---|---|---|
-| **Prompt Browser** | [`tools/prompt-browser/`](tools/prompt-browser/) | 431 prompt 浏览器 · 15 模型彩虹筛选 · URL 状态分享 · 键盘导航(`/`/`j`/`k`/`Enter`/`c`)|
+| **Prompt Browser** | [`tools/prompt-browser/`](tools/prompt-browser/) | 539 prompt 浏览器 · 15 模型彩虹筛选 · URL 状态分享 · 键盘导航(`/`/`j`/`k`/`Enter`/`c`)|
 | **Cross-Model Matrix** ★ | [`tools/cross-model/`](tools/cross-model/) | 10 场景 × 11 模型 = 110 横向对照 · `prompt-translator` 的查表基准 |
 | **Markdown Viewer** | [`viewer.html`](viewer.html) | 所有 .md 文件渲染成漂亮 web 文档 · 自动 TOC + 代码高亮 |
 
@@ -228,11 +231,11 @@ lanshu-awesome-ai-video-kit/
 ├── serve.py                        # 本地 dev server(UTF-8 + .md redirect)
 │
 ├── prompts/
-│   ├── data/all-prompts.json       # 单一数据源(431 条)
+│   ├── data/all-prompts.json       # 单一数据源(539 条)
 │   ├── data/cross-model-matrix.json # 110 条跨模型对照
 │   └── {seedance,happyhorse,kling,sora,veo}/README.md
 │
-├── methodology/                    # 16 篇方法论 SOP
+├── methodology/                    # 19 篇方法论 SOP
 │   ├── 01-基础公式.md ~ 08-避坑12问.md
 │   ├── 09-kling-公式.md ~ 12-veo-公式.md
 │   ├── 13-六大模型公式速查.md
@@ -253,7 +256,7 @@ lanshu-awesome-ai-video-kit/
 │   └── ISSUE_TEMPLATE/             # 4 个贡献表单
 │
 ├── tools/
-│   ├── prompt-browser/             # 431 prompt 浏览器
+│   ├── prompt-browser/             # 539 prompt 浏览器
 │   └── cross-model/                # 跨模型对照矩阵
 │
 ├── viewer.html                     # Markdown viewer
