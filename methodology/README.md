@@ -1,6 +1,6 @@
 # 方法论 / 写作 SOP
 
-把火山方舟官方 53 页 PDF 指南 + Kling 官方文档 + 8 大社区测评 + **4 大开源模型仓库手册** + **10 个 YouTube 教学视频实战社区**的经验,精炼成 **15 篇**可直接对照执行的 SOP。
+把火山方舟官方 53 页 PDF 指南 + Kling 官方文档 + 8 大社区测评 + **4 大开源模型仓库手册** + **10 个 YouTube 教学视频实战社区**的经验,精炼成 **16 篇**可直接对照执行的 SOP。
 
 ## 推荐阅读顺序
 
@@ -38,6 +38,12 @@
 | # | 文档 | 解决什么 | 读完需 |
 |---|---|---|---|
 | 15 | [Seedance Masterclass](15-seedance-masterclass.md) ⭐ | 10 YouTube 教学(累计 500K+ 播放):9 要素公式 / Timeline Prompting / 角色一致性 5 步 / 5 种爆款格式 / VFX 技巧 / Omni Reference / 绕过人脸检测 / 视频延伸 / Bullet Time / 8 个 prompt 模板 + 30 条真实实测 prompt | 15 分钟 |
+
+### Google AI 官方(16)
+
+| # | 文档 | 解决什么 | 读完需 |
+|---|---|---|---|
+| 16 | [Gemini Omni 公式](16-gemini-omni-公式.md) ⭐NEW | Google AI 官方 5 大 prompting tips(Real-World 锚点 / 文字渲染 / 摄影术语 / 迭代编辑 / 动作中途改)+ 10 条官方样板 prompt + Gemini Omni vs Veo 3.1 vs Sora 2 对比 | 8 分钟 |
 
 > 05/06 镜头与约束词对所有 15 模型通用;04 情绪外化、03 分镜时序在 Kling/Sora/Higgsfield 都有效。
 > 15 篇 Masterclass 与 02 进阶公式互补 — 02 是官方 PDF 8 要素,15 是社区实战 9 要素 + Timeline,**三角验证可信度**。

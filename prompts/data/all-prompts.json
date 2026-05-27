@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.10",
+  "schema_version": "1.11",
   "updated": "2026-05-26",
-  "total": 311,
+  "total": 321,
   "models": {
     "seedance-2.0": {
       "name": "Doubao Seedance 2.0",
@@ -217,6 +217,22 @@
         "AI Director 智能分镜",
         "20+ Sub-skills"
       ]
+    },
+    "gemini-omni": {
+      "name": "Gemini Omni (Omni Flash)",
+      "vendor": "Google AI / DeepMind",
+      "max_duration": "(待官方确认 · 已上线 Gemini App / Flow / YouTube Shorts/Create)",
+      "prompt_length": "灵活,可用文化/科学锚点替代细节描述",
+      "audio": "原生多模态(any-input-to-anything)",
+      "strengths": [
+        "跨模态创作 (any input → any output)",
+        "实时文字渲染 (typography / 空间放置 / 动画风格)",
+        "迭代编辑 (targeted updates 不重写)",
+        "中途动作修改 (修改 pacing/emotion 保持连续性)",
+        "Real-World 知识利用 (文化/历史/科学锚点直接用)",
+        "Gemini App / Flow / YouTube Shorts 多平台"
+      ],
+      "notice": "2026-05-19 发布 · 跨模态统一模型,从视频开始(Google AI 官方介绍 5 个 prompting tips)"
     }
   },
   "categories": [
@@ -543,6 +559,244 @@
         "name": "CogVideoX",
         "url": "https://huggingface.co/zai-org/CogVideoX-5b",
         "tier": "official-platform"
+      }
+    },
+    {
+      "id": "gm-001",
+      "model": "gemini-omni",
+      "title": "26 字母物品节拍剪辑(Google AI 官方样板)",
+      "prompt": "The video shows items of the alphabet. An unusual item starting with each letter is shown sitting on a table (like a Capybara for C, disco globe for D and Lava Lamp for L). All 26 letters must be represented by 26 items with matching lower thirds displaying the letter. Only one item and lower third at a time. Each lower third must look like a black marker written on a slip of paper in the bottom left. Rapid fire, roughly 9 frames per item at 24FPS. Last frame is a slip of paper \"THE END.\" The whole video is accompanied by calm smooth music.",
+      "tags": [
+        "text-rendering",
+        "rapid-fire",
+        "alphabet",
+        "educational",
+        "google-official"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "~10s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Mastering Gemini Omni: The Ultimate Video Prompting Guide",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
+      }
+    },
+    {
+      "id": "gm-002",
+      "model": "gemini-omni",
+      "title": "极简 prompt:火星宇航员视角",
+      "prompt": "Astronaut's POV on Mars",
+      "tags": [
+        "minimal-prompt",
+        "pov",
+        "space",
+        "real-world-knowledge",
+        "google-official"
+      ],
+      "category": "fantasy-scifi",
+      "params": {
+        "aspect": "16:9",
+        "duration": "8s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Tip 1 Real-World Knowledge",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
+      }
+    },
+    {
+      "id": "gm-003",
+      "model": "gemini-omni",
+      "title": "Rube Goldberg 大理石链式反应(极简)",
+      "prompt": "A marble rolling fast on a chain reaction style track, continuous smooth shot",
+      "tags": [
+        "minimal-prompt",
+        "physics",
+        "marble",
+        "continuous-shot",
+        "google-official"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "8s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Tip 1 Real-World Knowledge",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
+      }
+    },
+    {
+      "id": "gm-004",
+      "model": "gemini-omni",
+      "title": "文字单词逐个显示(节拍 sizzle reel)",
+      "prompt": "word by word, one word on the screen at a time: did, you, know, that, this, model, can, do, pretty, good, text!? Each word appears with a different animated style, perfect pacing to a rhythm, sizzle reel.",
+      "tags": [
+        "text-rendering",
+        "typography",
+        "rhythm",
+        "sizzle-reel",
+        "google-official"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "5s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Tip 2 Text Rendering",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
+      }
+    },
+    {
+      "id": "gm-005",
+      "model": "gemini-omni",
+      "title": "内心独白漂浮 3D 文字(Intrusive Thoughts)",
+      "prompt": "Overlay motion-tracked, minimalist text commentary onto the physical environment of the video. This text represents [the subject] deadpan, immediate inner monologue that's observant, slightly absurd, and life-contemplating. Think \"intrusive thoughts.\" Clean, white, lowercase sans-serif text (like Helvetica or Inter). The text hovers in 3D space, connected to the subjects being commented on via ultra-thin, crisp, white leader lines.",
+      "tags": [
+        "text-rendering",
+        "motion-tracked",
+        "3d-text",
+        "monologue",
+        "absurd",
+        "google-official"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "10s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Tip 2 Text Rendering (Intrusive Thoughts)",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
+      }
+    },
+    {
+      "id": "gm-006",
+      "model": "gemini-omni",
+      "title": "迭代编辑:把小提琴移到新环境",
+      "prompt": "Transport the violin to a new environment",
+      "tags": [
+        "iterative-edit",
+        "environment-change",
+        "minimal-prompt",
+        "google-official"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "5s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Tip 4 Edit Iteratively",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
+      }
+    },
+    {
+      "id": "gm-007",
+      "model": "gemini-omni",
+      "title": "迭代编辑:小提琴隐形",
+      "prompt": "Make the violin invisible",
+      "tags": [
+        "iterative-edit",
+        "vfx",
+        "invisibility",
+        "minimal-prompt",
+        "google-official"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "5s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Tip 4 Edit Iteratively",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
+      }
+    },
+    {
+      "id": "gm-008",
+      "model": "gemini-omni",
+      "title": "迭代编辑:换镜头角度(over-shoulder)",
+      "prompt": "Change the camera angle so it's looking over the violinist's shoulder",
+      "tags": [
+        "iterative-edit",
+        "camera-angle",
+        "over-shoulder",
+        "minimal-prompt",
+        "google-official"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "5s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Tip 4 Edit Iteratively",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
+      }
+    },
+    {
+      "id": "gm-009",
+      "model": "gemini-omni",
+      "title": "动作即时修改:踮脚走",
+      "prompt": "Make the character walk on their tiptoes",
+      "tags": [
+        "action-modify",
+        "character-control",
+        "minimal-prompt",
+        "google-official"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "5s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Tip 5 Change Action on the Fly",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
+      }
+    },
+    {
+      "id": "gm-010",
+      "model": "gemini-omni",
+      "title": "动作即时修改:跳起",
+      "prompt": "Have them leap into the air",
+      "tags": [
+        "action-modify",
+        "character-control",
+        "minimal-prompt",
+        "google-official"
+      ],
+      "category": "creative",
+      "params": {
+        "aspect": "16:9",
+        "duration": "5s",
+        "resolution": "1080p"
+      },
+      "source": {
+        "name": "Google AI · Tip 5 Change Action on the Fly",
+        "url": "https://x.com/GoogleAI/status/2059381218660270435",
+        "tier": "official"
       }
     },
     {

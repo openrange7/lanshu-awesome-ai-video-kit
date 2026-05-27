@@ -1,6 +1,6 @@
 ---
 name: model-selector
-description: 根据用户的视频需求(场景、时长、音频、语言、平台限制、预算、是否需要本地部署/角色一致性等),从 15 个主流 AI 视频模型(11 商业 + 4 开源)中推荐最匹配的 1-3 个,并解释为什么。覆盖商业:Seedance 2.0、HappyHorse 1.0、Kling 3.0、Sora 2、Veo 3.1、Runway Gen-4.5/Aleph、Pika 2.5、Hailuo 02、Hunyuan Video 1.5、Wan 2.7、即梦 AI;开源:LTX-Video 0.9.7、Mochi 1、CogVideoX 5B、Higgsfield Soul。用于"用哪个 AI 视频模型好"、"Sora 还是 Kling"、"国内有什么模型"、"哪个免费"、"哪个支持中文"、"哪个能编辑已有视频"、"哪个能本地部署"、"哪个角色一致性最强"等触发场景。
+description: 根据用户的视频需求(场景、时长、音频、语言、平台限制、预算、是否需要本地部署/角色一致性等),从 16 个主流 AI 视频模型(12 商业 + 4 开源)中推荐最匹配的 1-3 个,并解释为什么。覆盖商业:Seedance 2.0、HappyHorse 1.0、Kling 3.0、Sora 2、Veo 3.1、**Gemini Omni**(2026-05 新)、Runway Gen-4.5/Aleph、Pika 2.5、Hailuo 02、Hunyuan Video 1.5、Wan 2.7、即梦 AI;开源:LTX-Video 0.9.7、Mochi 1、CogVideoX 5B、Higgsfield Soul。用于"用哪个 AI 视频模型好"、"Sora 还是 Kling"、"国内有什么模型"、"哪个免费"、"哪个支持中文"、"哪个能编辑已有视频"、"哪个能本地部署"、"哪个角色一致性最强"等触发场景。
 ---
 
 # model-selector
@@ -22,6 +22,7 @@ description: 根据用户的视频需求(场景、时长、音频、语言、平
 | **Kling 3.0** | ★★★★★ | ★★★★ | ★★★★ | ✓ | 2m | — | ✓ | 中文剧情 / 图生视频 |
 | **Sora 2** | ★★ | ★★★★ | ★★★★★ | — | 25s (Pro) | — | △ | 电影艺术片 |
 | **Veo 3.1** | ★★ | ★★★★★ | ★★★ | — | 148s chained | — | △ | 多人对话 |
+| **Gemini Omni** ⭐NEW | ★★ | ★★★ | ★★★ | ★★★★★ | 待定 | — | △ | **迭代编辑 / 文字渲染 / 跨模态** |
 | **Runway Gen-4** | ★★★ | — | ★★★ | ★★★★★ | 30s | — | ✓ | **视频编辑** |
 | **Pika 2.5** | ★★ | ★ | ★★ | — | 25s | — | ✓ | **创意特效** |
 | **Hailuo 02** | ★★★ | — | ★★★★★ | — | 10s | — | ✓ | 物理动作 |
